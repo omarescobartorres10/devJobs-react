@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css'
+import './app.css'
 import Header from "./header";
 import Hero from './Hero';
 import JobCard from "./JobCard";
