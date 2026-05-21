@@ -1,6 +1,9 @@
 import React from "react";
 import './App.css'
+import Header from "./header";
+import Hero from './Hero';
 import JobCard from "./JobCard";
+
 
 
 function App() {
@@ -34,22 +37,27 @@ function App() {
             salary: "$5000 - $6000",
         },
     ]
-  return (
-<div className="jobs-grid">
-     <ul>
-    {jobs.map((job) => (
-        <JobCard 
-        key={job.id}
-        titulo={job.title}
-        empresa={job.company}
-        ubicacion={job.location}
-        salario={job.salary}
-        />
-    ))}
-  </ul>
-</div>
- 
-  )
+
+    return (
+  <>
+    <Header />
+    <Hero />
+      <div className="jobs-grid">
+       
+          {jobs.map((job) => (
+            <JobCard 
+              key={job.id}
+              titulo={job.title}
+              empresa={job.company}
+              ubicacion={job.location}
+              salario={job.salary}
+            />
+          ))}
+      
+      </div>
+  </>
+);
 }
+
 
 export default App
