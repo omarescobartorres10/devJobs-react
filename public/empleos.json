@@ -1,0 +1,34 @@
+[
+        {
+            "id": 1,
+            "title": "Desarrollador Web",
+            "company": "Google",
+            "location": "Presencial",
+            "experience": "Junior",
+            "contrato": "Tiempo completo"
+        },
+        {
+            "id": 2,
+            "title": "Frontend Developer",
+            "company": "Microsoft",
+            "location": "Remoto",
+            "experience": "Senior",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 3,
+            "title": "Backend Developer",
+            "company": "Google",
+            "location": "Hibrido",
+            "experience": "Mid",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 4,
+            "title": "AI Developer",
+            "company": "Apple",
+            "location": "Hibrido",
+            "experience": "Senior",
+            "contrato": "Tiempo completo"
+        }
+]

@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import './app.css'
 import Header from "./Header";
 import Hero from './Hero';
 import JobCard from "./JobCard";
+
 
 
 
@@ -13,45 +14,19 @@ function App() {
     const [ubicacion, setUbicacion] = useState('');
     const [experiencia, setExperiencia] = useState('');
     const [contrato, setContrato] = useState('');
+    const [empleos, setEmpleos] = useState([]);
     
 
+    useEffect(() => {
+        async function cargarEmpleos() {
+            const respuesta = await fetch("./empleos.json");
+            const datos = await respuesta.json();
+            setEmpleos(datos);
+  }
+  cargarEmpleos();
+}, []);
 
-    const jobs = [
-        {
-            id: 1,
-            title: "Desarrollador Web",
-            company: "Google",
-            location: "Presencial",
-            experience: "Junior",
-            contrato: "Tiempo completo",
-        },
-        {
-            id: 2,
-            title: "Frontend Developer",
-            company: "Microsoft",
-            location: "Remoto",
-            experience: "Senior",
-            contrato: "Por proyecto",
-        },
-        {
-            id: 3,
-            title: "Backend Developer",
-            company: "Google",
-            location: "Hibrido",
-            experience: "Mid",
-            contrato: "Por proyecto",
-        },
-        // {
-        //     id: 4,
-        //     title: "AI Developer",
-        //     company: "Apple",
-        //     location: "Hibrido",
-        //     experience: "Senior",
-        //     contrato: "Tiempo completo",
-        // },
-    ]
-
-    const empleosFiltrados = jobs.filter(job =>
+    const empleosFiltrados = empleos.filter(job =>
         job.title.toLowerCase().includes(busqueda.toLowerCase()) &&
         (tecnologia === "" || job.company.toLowerCase() === tecnologia.toLowerCase()) &&
         (ubicacion === "" || job.location.toLowerCase() === ubicacion.toLowerCase()) &&
