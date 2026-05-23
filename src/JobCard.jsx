@@ -8,7 +8,8 @@ function JobCard(props) {
     <div className="job-card">
       <h3>{props.titulo}</h3>
       <p>{props.empresa} | {props.ubicacion}</p>
-      <p>{props.salario}</p>
+      <p>Experiencia: {props.experiencia}</p>
+      <p>Tipo de contrato: {props.contrato}</p>
       <button onClick={() => alert(`Aplicaste a ${props.titulo}`)}>
         Aplicar
       </button>
