@@ -30,5 +30,133 @@
             "location": "Hibrido",
             "experience": "Senior",
             "contrato": "Tiempo completo"
+        },
+        {
+            "id": 5,
+            "title": "Desarrollador Web",
+            "company": "Google",
+            "location": "Presencial",
+            "experience": "Junior",
+            "contrato": "Tiempo completo"
+        },
+        {
+            "id": 6,
+            "title": "Frontend Developer",
+            "company": "Microsoft",
+            "location": "Remoto",
+            "experience": "Senior",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 7,
+            "title": "Backend Developer",
+            "company": "Google",
+            "location": "Hibrido",
+            "experience": "Mid",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 8,
+            "title": "AI Developer",
+            "company": "Apple",
+            "location": "Hibrido",
+            "experience": "Senior",
+            "contrato": "Tiempo completo"
+        },
+        {
+            "id": 9,
+            "title": "Desarrollador Web",
+            "company": "Google",
+            "location": "Presencial",
+            "experience": "Junior",
+            "contrato": "Tiempo completo"
+        },
+        {
+            "id": 10,
+            "title": "Frontend Developer",
+            "company": "Microsoft",
+            "location": "Remoto",
+            "experience": "Senior",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 11,
+            "title": "Backend Developer",
+            "company": "Google",
+            "location": "Hibrido",
+            "experience": "Mid",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 12,
+            "title": "AI Developer",
+            "company": "Apple",
+            "location": "Hibrido",
+            "experience": "Senior",
+            "contrato": "Tiempo completo"
+        },
+        {
+            "id": 13,
+            "title": "Desarrollador Web",
+            "company": "Google",
+            "location": "Presencial",
+            "experience": "Junior",
+            "contrato": "Tiempo completo"
+        },
+        {
+            "id": 14,
+            "title": "Frontend Developer",
+            "company": "Microsoft",
+            "location": "Remoto",
+            "experience": "Senior",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 15,
+            "title": "Backend Developer",
+            "company": "Google",
+            "location": "Hibrido",
+            "experience": "Mid",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 16,
+            "title": "AI Developer",
+            "company": "Apple",
+            "location": "Hibrido",
+            "experience": "Senior",
+            "contrato": "Tiempo completo"
+        },
+        {
+            "id": 17,
+            "title": "Desarrollador Web",
+            "company": "Google",
+            "location": "Presencial",
+            "experience": "Junior",
+            "contrato": "Tiempo completo"
+        },
+        {
+            "id": 18,
+            "title": "Frontend Developer",
+            "company": "Microsoft",
+            "location": "Remoto",
+            "experience": "Senior",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 19,
+            "title": "Backend Developer",
+            "company": "Google",
+            "location": "Hibrido",
+            "experience": "Mid",
+            "contrato": "Por proyecto"
+        },
+        {
+            "id": 20,
+            "title": "AI Developer",
+            "company": "Apple",
+            "location": "Hibrido",
+            "experience": "Senior",
+            "contrato": "Tiempo completo"
         }
 ]
