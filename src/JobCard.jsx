@@ -1,5 +1,6 @@
 import React from "react";
-import "./jobCard.css"
+import "./jobCard.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -10,9 +11,12 @@ function JobCard(props) {
       <p>{props.empresa} | {props.ubicacion}</p>
       <p>Experiencia: {props.experiencia}</p>
       <p>Tipo de contrato: {props.contrato}</p>
-      <button onClick={() => alert(`Aplicaste a ${props.titulo}`)}>
-        Aplicar
-      </button>
+      <Link to={`/job/${props.id}`}>
+        <button >
+         Aplicar
+        </button>
+      </Link>
+      {console.log(props.id)}
     </div>
   );
 }
