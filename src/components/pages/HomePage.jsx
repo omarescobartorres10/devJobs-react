@@ -1,6 +1,6 @@
-import Header from "./../header";
-import Hero from "./../Hero";
-import JobCard from "./../JobCard";
+import Header from "./../layout/Header";
+import Hero from "./../layout/Hero";
+import JobCard from "./../jobs/JobCard";
 import { useState, useEffect } from "react";
 
 

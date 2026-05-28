@@ -6,6 +6,7 @@ function JobDetailPage() {
   const { id } = useParams();
   const [empleo, setEmpleo] = useState(null);
   const navigate = useNavigate();
+
   
   useEffect(() => {
     
@@ -15,11 +16,11 @@ function JobDetailPage() {
       const empleoEncontrado = datos.find(emp => emp.id == id);
 setEmpleo(empleoEncontrado);
 
+
     }
     cargarEmpleo();
   }, [id]);
 
-  
   if (empleo === null) {
     return <div>Cargando...</div>;
   }

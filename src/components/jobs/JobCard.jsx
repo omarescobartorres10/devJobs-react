@@ -1,5 +1,5 @@
 import React from "react";
-import "./jobCard.css";
+import "../styles/jobCard.css";
 import { Link } from "react-router-dom";
 
 
