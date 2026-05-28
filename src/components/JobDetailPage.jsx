@@ -1,10 +1,12 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function JobDetailPage() {
   const { id } = useParams();
   const [empleo, setEmpleo] = useState(null);
-
+  const navigate = useNavigate();
+  
   useEffect(() => {
     
     async function cargarEmpleo() {
@@ -22,6 +24,10 @@ setEmpleo(empleoEncontrado);
     return <div>Cargando...</div>;
   }
 
+  const irAEmpleosAnteriores = () => {
+    navigate('/');
+  };
+
 
 
   return (
@@ -32,7 +38,9 @@ setEmpleo(empleoEncontrado);
       <p>{empleo.location}</p>
       <p>{empleo.experience}</p>
       <p>{empleo.contract}</p>
+      <button onClick={irAEmpleosAnteriores}>Volver</button>
     </div>
+    
   );
 }
 
