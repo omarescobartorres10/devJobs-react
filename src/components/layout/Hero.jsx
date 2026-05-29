@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 function Hero({setBusqueda, setTecnologia, setUbicacion, setExperiencia, setContrato}){
     return (
+<section className="hero-section-empleos" >
 <div className="container">
   <h1 className="hero-title">Encuentra el trabajo de tus sueños</h1>
   <p className="hero-subtitle">Explora miles de oportunidades en el sector tecnológico</p>
@@ -47,6 +48,8 @@ function Hero({setBusqueda, setTecnologia, setUbicacion, setExperiencia, setCont
 
   
 </div>
+</section>
+
     );
 }
 export default Hero;

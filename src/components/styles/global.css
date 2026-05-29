@@ -565,7 +565,6 @@ hr {
 .pagination-links {
   display: flex;
   list-style: none;
-  padding: 0;
   gap: 10px;
   padding: 5px;
 }
@@ -574,14 +573,35 @@ hr {
 .pagination-link {
   text-decoration: none;
   color: var(--text-primary);
-  padding: 1rem;
   border-radius: 10px;
   transition: all .5s ease;
+  padding: .3rem;
 }
 
 .pagination-link:hover {
   background-color: var(--primary-hover);
   color: var(--text-primary);
+}
+
+.pagination-link-text {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+.pagination-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 

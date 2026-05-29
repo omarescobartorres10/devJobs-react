@@ -67,15 +67,56 @@ function HomePage() {
       </div>
       <footer>
         <div className="container">
-          <div className="pagination">
-            <button onClick={() => setPaginaActual(paginaActual - 1)} disabled={paginaActual === 1}>
-              Anterior
-            </button>
-            <span>Página {paginaActual} de {totalPaginas}</span>
-            <button onClick={() => setPaginaActual(paginaActual + 1)} disabled={paginaActual === totalPaginas}>
-              Siguiente
-            </button>
-          </div>
+          <nav className="pagination-container">
+            <ul className="pagination-links">
+                <li className="pagination-link">
+                  <button 
+                    onClick={() => setPaginaActual(paginaActual - 1)} 
+                    disabled={paginaActual === 1}
+                    className="pagination-button"
+                  > 
+                    <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+                </button>
+              
+            </li>
+            </ul>
+            
+            <span className="pagination-link-text">Página {paginaActual} de {totalPaginas}</span>
+            <ul className="pagination-links">
+              <li className="pagination-link">
+                <button
+                  onClick={() => setPaginaActual(paginaActual + 1)} 
+                  disabled={paginaActual === totalPaginas}
+                  className="pagination-button"
+                > 
+                  <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+                </button>
+              
+            </li>
+            </ul>
+          </nav>
         </div>
       </footer>
     </>

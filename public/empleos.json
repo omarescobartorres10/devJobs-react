@@ -1,183 +1,122 @@
 [
-        {
-            "id": 1,
-            "title": "Desarrollador Web",
-            "company": "Google",
-            "location": "Presencial",
-            "experience": "Junior",
-            "description": "Buscamos un Desarrollador Web con experiencia en desarrollo web.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 2,
-            "title": "Frontend Developer",
-            "company": "Microsoft",
-            "location": "Remoto",
-            "experience": "Senior",
-
-            "description": "Buscamos un Frontend Developer con experiencia en desarrollo frontend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 3,
-            "title": "Backend Developer",
-            "company": "Google",
-            "location": "Hibrido",
-            "experience": "Mid",
-            "description": "Buscamos un Backend Developer con experiencia en desarrollo backend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 4,
-            "title": "AI Developer",
-            "company": "Apple",
-            "location": "Hibrido",
-            "experience": "Senior",
-            "description": "Buscamos un AI Developer con experiencia en desarrollo de inteligencia artificial.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 5,
-            "title": "Desarrollador Web",
-            "company": "Google",
-            "location": "Presencial",
-            "experience": "Junior",
-            "description": "Buscamos un Desarrollador Web con experiencia en desarrollo web.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 6,
-            "title": "Frontend Developer",
-            "company": "Microsoft",
-            "location": "Remoto",
-            "experience": "Senior",
-            "description": "Buscamos un Frontend Developer con experiencia en desarrollo frontend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 7,
-            "title": "Backend Developer",
-            "company": "Google",
-            "location": "Hibrido",
-            "experience": "Mid",
-            "description": "Buscamos un Backend Developer con experiencia en desarrollo backend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 8,
-            "title": "AI Developer",
-            "company": "Apple",
-            "location": "Hibrido",
-            "experience": "Senior",
-            "description": "Buscamos un AI Developer con experiencia en desarrollo de inteligencia artificial.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 9,
-            "title": "Desarrollador Web",
-            "company": "Google",
-            "location": "Presencial",
-            "experience": "Junior",
-            "description": "Buscamos un Desarrollador Web con experiencia en desarrollo web.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 10,
-            "title": "Frontend Developer",
-            "company": "Microsoft",
-            "location": "Remoto",
-            "experience": "Senior",
-            "description": "Buscamos un Frontend Developer con experiencia en desarrollo frontend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 11,
-            "title": "Backend Developer",
-            "company": "Google",
-            "location": "Hibrido",
-            "experience": "Mid",
-            "description": "Buscamos un Backend Developer con experiencia en desarrollo backend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 12,
-            "title": "AI Developer",
-            "company": "Apple",
-            "location": "Hibrido",
-            "experience": "Senior",
-            "description": "Buscamos un AI Developer con experiencia en desarrollo de inteligencia artificial.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 13,
-            "title": "Desarrollador Web",
-            "company": "Google",
-            "location": "Presencial",
-            "experience": "Junior",
-            "description": "Buscamos un Desarrollador Web con experiencia en desarrollo web.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 14,
-            "title": "Frontend Developer",
-            "company": "Microsoft",
-            "location": "Remoto",
-            "experience": "Senior",
-            "description": "Buscamos un Frontend Developer con experiencia en desarrollo frontend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 15,
-            "title": "Backend Developer",
-            "company": "Google",
-            "location": "Hibrido",
-            "experience": "Mid",
-            "description": "Buscamos un Backend Developer con experiencia en desarrollo backend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 16,
-            "title": "AI Developer",
-            "company": "Apple",
-            "location": "Hibrido",
-            "experience": "Senior",
-            "description": "Buscamos un AI Developer con experiencia en desarrollo de inteligencia artificial.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 17,
-            "title": "Desarrollador Web",
-            "company": "Google",
-            "location": "Presencial",
-            "experience": "Junior",
-            "description": "Buscamos un Desarrollador Web con experiencia en desarrollo web.",
-            "contrato": "Tiempo completo"
-        },
-        {
-            "id": 18,
-            "title": "Frontend Developer",
-            "company": "Microsoft",
-            "location": "Remoto",
-            "experience": "Senior",
-            "description": "Buscamos un Frontend Developer con experiencia en desarrollo frontend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 19,
-            "title": "Backend Developer",
-            "company": "Google",
-            "location": "Hibrido",
-            "experience": "Mid",
-            "description": "Buscamos un Backend Developer con experiencia en desarrollo backend.",
-            "contrato": "Por proyecto"
-        },
-        {
-            "id": 20,
-            "title": "AI Developer",
-            "company": "Apple",
-            "location": "Hibrido",
-            "experience": "Senior",
-            "description": "Buscamos un AI Developer con experiencia en desarrollo de inteligencia artificial.",
-            "contrato": "Tiempo completo"
-        }
+  {
+    "id": 1,
+    "title": "Desarrollador Web Frontend",
+    "company": "Google",
+    "location": "Remoto",
+    "experience": "Junior",
+    "contrato": "Tiempo completo",
+    "description": "En Google estamos buscando un Desarrollador Frontend apasionado por crear interfaces rápidas y accesibles. Trabajarás con React, Next.js y equipos multidisciplinarios.",
+    "responsabilidades": [
+      "Desarrollar y mantener componentes reutilizables en React.",
+      "Colaborar con diseñadores UI/UX para implementar diseños pixel-perfect.",
+      "Optimizar el rendimiento de las aplicaciones web.",
+      "Escribir pruebas unitarias e integración con Jest.",
+      "Participar en code reviews y mentoría de trainees."
+    ],
+    "requisitos": [
+      "2 años de experiencia con React o Vue.",
+      "Conocimiento de HTML5, CSS3, JavaScript (ES6+).",
+      "Manejo de Git y control de versiones.",
+      "Experiencia con herramientas de testing (Jest, Testing Library).",
+      "Inglés intermedio (lectura técnica)."
+    ],
+    "sobreLaEmpresa": "Google es una empresa global líder en tecnología. Ofrecemos un ambiente inclusivo, flexibilidad horaria y oportunidades de crecimiento."
+  },
+  {
+    "id": 2,
+    "title": "Analista de Datos",
+    "company": "Spotify",
+    "location": "Híbrido",
+    "experience": "Mid",
+    "contrato": "Tiempo completo",
+    "description": "Spotify busca un Analista de Datos para ayudar a entender el comportamiento de millones de usuarios y mejorar la experiencia de escucha.",
+    "responsabilidades": [
+      "Extraer, limpiar y transformar grandes volúmenes de datos.",
+      "Diseñar dashboards en Tableau y Power BI.",
+      "Realizar análisis estadístico para detectar tendencias.",
+      "Colaborar con equipos de producto y marketing.",
+      "Automatizar reportes con Python y SQL."
+    ],
+    "requisitos": [
+      "Experiencia con SQL y Python (pandas, numpy).",
+      "Conocimiento en visualización de datos (Tableau, Power BI).",
+      "Capacidad para comunicar hallazgos a audiencias no técnicas.",
+      "Inglés intermedio.",
+      "Título en Ingeniería, Matemáticas o carreras afines."
+    ],
+    "sobreLaEmpresa": "Spotify es la plataforma de audio más grande del mundo. Valoramos la creatividad, la diversidad y la innovación."
+  },
+  {
+    "id": 3,
+    "title": "Ingeniero DevOps",
+    "company": "Netflix",
+    "location": "Remoto",
+    "experience": "Senior",
+    "contrato": "Por proyecto",
+    "description": "Netflix busca un Ingeniero DevOps para escalar sus sistemas de streaming a nivel global y garantizar alta disponibilidad.",
+    "responsabilidades": [
+      "Gestionar infraestructura en AWS (EC2, S3, Lambda).",
+      "Implementar pipelines CI/CD con Jenkins y GitHub Actions.",
+      "Monitorear logs y métricas con Datadog y Grafana.",
+      "Automatizar tareas con scripts en Python y Bash.",
+      "Colaborar con equipos de seguridad para garantizar buenas prácticas."
+    ],
+    "requisitos": [
+      "Experiencia con Kubernetes y Docker.",
+      "Conocimiento de Terraform o CloudFormation.",
+      "Manejo de Linux y redes básicas.",
+      "Experiencia con herramientas de monitoreo.",
+      "Inglés avanzado."
+    ],
+    "sobreLaEmpresa": "Netflix revoluciona el entretenimiento. Trabajamos con libertad y responsabilidad, buscando siempre la excelencia técnica."
+  },
+  {
+    "id": 4,
+    "title": "Desarrollador Backend",
+    "company": "Amazon",
+    "location": "Presencial",
+    "experience": "Mid",
+    "contrato": "Tiempo completo",
+    "description": "Amazon busca un Desarrollador Backend para construir APIs de alto rendimiento y sistemas distribuidos.",
+    "responsabilidades": [
+      "Diseñar microservicios con Node.js y Express.",
+      "Optimizar consultas en bases de datos SQL y NoSQL.",
+      "Implementar sistemas de caché con Redis.",
+      "Escribir pruebas de integración y unitarias.",
+      "Documentar APIs y colaborar con frontend."
+    ],
+    "requisitos": [
+      "Experiencia con Node.js, Python o Java.",
+      "Conocimiento de bases de datos relacionales y no relacionales.",
+      "Familiaridad con arquitectura de microservicios.",
+      "Manejo de Git y GitHub Actions.",
+      "Inglés intermedio."
+    ],
+    "sobreLaEmpresa": "Amazon es una empresa centrada en el cliente, con cultura de innovación y liderazgo en la nube."
+  },
+  {
+    "id": 5,
+    "title": "Especialista en Ciberseguridad",
+    "company": "Microsoft",
+    "location": "Remoto",
+    "experience": "Senior",
+    "contrato": "Tiempo completo",
+    "description": "Microsoft busca un Especialista en Ciberseguridad para proteger sus sistemas y datos de amenazas externas.",
+    "responsabilidades": [
+      "Realizar análisis de vulnerabilidades y pruebas de penetración.",
+      "Implementar políticas de seguridad en la nube (Azure).",
+      "Monitorear incidentes de seguridad con SIEM.",
+      "Capacitar al equipo en buenas prácticas de seguridad.",
+      "Colaborar con equipos legales y de compliance."
+    ],
+    "requisitos": [
+      "Certificación en seguridad (CISSP, CEH o similar).",
+      "Experiencia con herramientas de seguridad (Nessus, Wireshark).",
+      "Conocimiento de Azure Security Center.",
+      "Inglés avanzado.",
+      "Experiencia previa en roles similares (mínimo 3 años)."
+    ],
+    "sobreLaEmpresa": "Microsoft empodera a personas y organizaciones. La seguridad es una prioridad en todos nuestros productos y servicios."
+  }
 ]
