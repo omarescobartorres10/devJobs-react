@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 function Header() {
@@ -42,33 +41,6 @@ function Header() {
                         height="30" 
                     />
                 </div>
-=======
-function Header() {
-    return (
-        <header>
-            <div>
-                <h1>DevJobs</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Empleos</a>
-                    </li>
-                    <li>
-                        <a href="#">Empresas</a>
-                    </li>
-                    <li>
-                        <a href="#">Salarios</a>
-                    </li>
-                </ul>
-            </nav>
-            <div>
-                <button>Subir CV</button>
-                <button>Iniciar Sesión</button>
->>>>>>> d344d6ef1ef2581e54540e6e6e5eec7f836d3693
             </div>
         </header>
     );

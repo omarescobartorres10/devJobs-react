@@ -1,14 +1,9 @@
 import React from "react";
-<<<<<<< HEAD
-=======
-import "../styles/hero.css";
->>>>>>> d344d6ef1ef2581e54540e6e6e5eec7f836d3693
 import { useState } from 'react';
 
 
 function Hero({setBusqueda, setTecnologia, setUbicacion, setExperiencia, setContrato}){
     return (
-<<<<<<< HEAD
 <div className="container">
   <h1 className="hero-title">Encuentra el trabajo de tus sueños</h1>
   <p className="hero-subtitle">Explora miles de oportunidades en el sector tecnológico</p>
@@ -26,14 +21,6 @@ function Hero({setBusqueda, setTecnologia, setUbicacion, setExperiencia, setCont
 
   <div className="hero-filters-section">
     <select onChange={(e)=>setTecnologia(e.target.value)}>
-=======
-<div className="hero">
-  <h1>Encuentra el trabajo de tus sueños</h1>
-  <p>Explora miles de oportunidades en el sector tecnológico</p>
-  <input type="text" placeholder="Buscar por título, empresa o ubicación" onChange={(e)=>setBusqueda(e.target.value)} />
-
-  <select onChange={(e)=>setTecnologia(e.target.value)}>
->>>>>>> d344d6ef1ef2581e54540e6e6e5eec7f836d3693
     <option value="">Empresa</option>
     <option value="Google">Google</option>
     <option value="Microsoft">Microsoft</option>
@@ -56,12 +43,9 @@ function Hero({setBusqueda, setTecnologia, setUbicacion, setExperiencia, setCont
     <option value="Tiempo completo">Tiempo completo</option>
     <option value="Por proyecto">Por proyecto</option>
   </select>
-<<<<<<< HEAD
   </div>
 
   
-=======
->>>>>>> d344d6ef1ef2581e54540e6e6e5eec7f836d3693
 </div>
     );
 }

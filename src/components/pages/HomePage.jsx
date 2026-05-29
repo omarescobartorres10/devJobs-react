@@ -15,10 +15,7 @@ function HomePage() {
   const [empleos, setEmpleos] = useState([]);
   const [paginaActual, setPaginaActual] = useState(1);
 
-<<<<<<< HEAD
 
-=======
->>>>>>> d344d6ef1ef2581e54540e6e6e5eec7f836d3693
   const empleosPorPagina = 5;
 
 
@@ -47,15 +44,9 @@ function HomePage() {
     <>
       <Header />
       <Hero setBusqueda={setBusqueda} setTecnologia={setTecnologia} setUbicacion={setUbicacion} setExperiencia={setExperiencia} setContrato={setContrato} />
-<<<<<<< HEAD
       <p className="results-count-title container" >Mostrando {empleosFiltrados.length} resultados</p>
 
       <div>
-=======
-      <p>Mostrando {empleosFiltrados.length} resultados</p>
-
-      <div className="jobs-grid">
->>>>>>> d344d6ef1ef2581e54540e6e6e5eec7f836d3693
 
         {empleosFiltrados.length === 0 ? (<p>No se encontraron empleos</p>) : (
           empleosPagina.map((job) => (
@@ -66,7 +57,6 @@ function HomePage() {
               empresa={job.company}
               ubicacion={job.location}
               experiencia={job.experience}
-<<<<<<< HEAD
               description={job.description}
               contrato={job.contrato}
 
@@ -88,24 +78,6 @@ function HomePage() {
           </div>
         </div>
       </footer>
-=======
-              contrato={job.contrato}
-
-            />
-          )))
-        }
-
-        <div className="pagination">
-          <button onClick={() => setPaginaActual(paginaActual - 1)} disabled={paginaActual === 1}>
-            Anterior
-          </button>
-          <span>Página {paginaActual} de {totalPaginas}</span>
-          <button onClick={() => setPaginaActual(paginaActual + 1)} disabled={paginaActual === totalPaginas}>
-            Siguiente
-          </button>
-        </div>
-      </div>
->>>>>>> d344d6ef1ef2581e54540e6e6e5eec7f836d3693
     </>
   );
 }
