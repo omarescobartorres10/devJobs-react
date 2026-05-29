@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
     return (
         <header className="header">
@@ -13,16 +15,16 @@ function Header() {
                 <nav className="header-nav">
                 <ul className="header-nav-links">
                     <li>
-                        <a className="header-nav-link"  href="#">Inicio</a>
+                        <Link className="header-nav-link" to="/">Inicio</Link>
                     </li>
                     <li>
-                        <a className="header-nav-link" href="#">Empleos</a>
+                        <Link className="header-nav-link" to="/empleos">Empleos</Link>
                     </li>
                     <li>
-                        <a className="header-nav-link" href="#">Empresas</a>
+                        <Link className="header-nav-link" to="#">Empresas</Link>
                     </li>
                     <li>
-                        <a className="header-nav-link" href="#">Salarios</a>
+                        <Link className="header-nav-link" to="#">Salarios</Link>
                     </li>
                 </ul>
             </nav>
